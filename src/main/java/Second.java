@@ -6,9 +6,9 @@ public class Second {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Как вас зовут?");
-        String name = sc.next();
+        String name = sc.nextLine();
 
-        if (name.equals("Вячеслав")) {
+        if (name.equalsIgnoreCase("вячеслав")) {
             System.out.println("Привет, Вячеслав");
         } else System.out.println("Нет такого имени");
         sc.close();
