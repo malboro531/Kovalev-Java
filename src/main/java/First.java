@@ -5,10 +5,9 @@ public class First {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите любое число");
-        int i;
 
         if (sc.hasNextInt()) {
-            i = sc.nextInt();
+            int i = sc.nextInt();
             if (i > 7) {
                 System.out.println("Привет");
             } else System.out.println("Число меньше или равно 7");
