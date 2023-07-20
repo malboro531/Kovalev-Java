@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="Kovalev-Java:jar">
+  <artifact type="jar" name="Kovalev-Java:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/Kovalev_Java_jar</output-path>
     <root id="archive" name="Kovalev-Java.jar">
       <element id="module-output" name="Kovalev-Java" />

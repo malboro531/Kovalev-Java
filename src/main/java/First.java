@@ -12,6 +12,7 @@ public class First {
             if (i > 7) {
                 System.out.println("Привет");
             } else System.out.println("Число меньше или равно 7");
-        } else System.out.println("Введенные данные не корректны");
+        } else System.out.println("Введенные данные не корректны. Попробуйте снова");
+        sc.close();
     }
 }

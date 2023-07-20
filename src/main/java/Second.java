@@ -6,13 +6,11 @@ public class Second {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Как вас зовут?");
-        String name;
+        String name = sc.next();
 
-        if (sc.hasNext()) {
-            name = sc.next();
-            if (name.equals("Вячеслав")) {
-                System.out.println("Привет, Вячеслав");
-            } else System.out.println("Посторонним вход воспрещен");
-        }
+        if (name.equals("Вячеслав")) {
+            System.out.println("Привет, Вячеслав");
+        } else System.out.println("Нет такого имени");
+        sc.close();
     }
 }
